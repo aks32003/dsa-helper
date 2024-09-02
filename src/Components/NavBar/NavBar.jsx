@@ -7,7 +7,7 @@ export default function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark border-bottom">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center text-white" to="/">
-          <img src="src/assets/logo.png" alt="icon" className="logo-image me-2" />
+          <img src="public/images/logo.png" alt="icon" className="logo-image me-2" />
           DSA-Helper
         </Link>
         <button
