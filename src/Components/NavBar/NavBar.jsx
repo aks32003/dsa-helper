@@ -1,13 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom"; 
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark border-bottom">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+      <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center text-white" to="/">
-          <img src="https://i.ibb.co/8Xr3FWY/logo.png" alt="icon" className="logo-image me-2" />
+          <img src="https://i.ibb.co/8Xr3FWY/logo.png" alt="Logo" className="logo-image me-2" />
           DSA-Helper
         </Link>
         <button
@@ -27,7 +27,7 @@ export default function NavBar() {
               <Link className="nav-link text-white" to="/">Code Solver</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/beautify-code">Code Formatter</Link> {/* Update the path */}
+              <Link className="nav-link text-white" to="/beautify-code">Code Formatter</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-white" to="/code-converter">Code Converter</Link>
